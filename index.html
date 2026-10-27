@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efff" />
+    <meta
+      name="description"
+      content="A little birthday corner full of lavender, sunflowers, cats, and questionable friendship."
+    />
+    <title>Happy Birthday Selina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="paper-texture" aria-hidden="true"></div>
+    <div class="floating-doodles" aria-hidden="true" id="stars"></div>
+
+    <main class="site-shell">
+      <header class="topline">
+        <a class="tiny-mark" href="#intro" aria-label="Back to the beginning"
+          ><span class="tiny-flower">✿</span> a little thing i made for you</a
+        >
+        <span class="top-pill"
+          ><span class="live-dot"></span> BIRTHDAY DELIVERY ✉</span
+        >
+      </header>
+
+      <section class="screen active" id="intro" aria-labelledby="intro-title">
+        <div class="eyebrow">
+          <span>FOR ONE VERY SPECIFIC HUMAN</span><span class="line"></span
+          ><span>✿</span>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sunflower flower-left">
+            <span class="petals">✿</span><span class="flower-center">✺</span
+            ><i>sunshine</i>
+          </div>
+          <div class="hero-envelope">
+            <span class="envelope-stamp">♡</span
+            ><span class="envelope-note">open me<br />pls</span
+            ><span class="envelope-flap"></span>
+          </div>
+          <div class="cat-doodle">
+            <span class="cat-ears">⌃⌃</span><span class="cat-face">ᵔᴥᵔ</span
+            ><span class="cat-paws">ᴗ</span>
+          </div>
+          <span class="doodle-heart heart-one">♡</span
+          ><span class="doodle-heart heart-two">✧</span>
+        </div>
+        <p class="kicker">psst… birthday girl. yes, you. 🌻</p>
+        <h1 id="intro-title">I made you<br /><em>a little something.</em></h1>
+        <p class="lede">
+          It's nothing much, but it's all for you. put in a little effort and
+          you'll find it's worth it.
+        </p>
+        <button class="button primary" data-next="gift">
+          Proceed <span>↗</span>
+        </button>
+        <p class="micro-note">
+          made with lot's love, & efforts, hope this makes you smile ♡
+        </p>
+        <div class="tiny-bottom-doodle" aria-hidden="true">
+          ☼　✿　ฅ^•ﻌ•^ฅ　✿　☼
+        </div>
+      </section>
+
+      <section class="screen" id="gift" aria-labelledby="gift-title">
+        <div class="step-label">
+          <span>✿ 02 / THE PRESENT</span
+          ><span>NO PEEKING (okay, a little)</span>
+        </div>
+        <p class="kicker">a tiny delivery, just for you</p>
+        <h2 id="gift-title">Your annual dose of<br /><em>being adored.</em></h2>
+        <p class="body-copy">
+          Please open the suspiciously cute box. It has passed absolutely zero
+          safety inspections, but the vibes are excellent.
+        </p>
+        <button
+          class="gift-button"
+          id="open-gift"
+          aria-label="Open your birthday gift"
+        >
+          <span class="gift-sparkle sparkle-left">✦</span
+          ><span class="gift-glow"></span>
+          <span class="gift-box"
+            ><span class="gift-lid"></span><span class="gift-ribbon-v"></span
+            ><span class="gift-ribbon-h"></span
+            ><span class="gift-bow">♡</span></span
+          >
+          <span class="gift-caption">tap the present, birthday bean</span
+          ><span class="gift-sparkle sparkle-right">✿</span>
+        </button>
+        <p class="micro-note" id="gift-hint">
+          go on. it only bites a little. probably.
+        </p>
+        <button class="button ghost hidden" id="gift-continue">
+          omg okay, next <span>→</span>
+        </button>
+      </section>
+
+      <section class="screen" id="memories" aria-labelledby="memories-title">
+        <div class="step-label">
+          <span>✿ 03 / THE SCRAPBOOK</span>
+          <span>CLASSIFIED NONSENSE ♡</span>
+        </div>
+
+        <p class="kicker">little moments, very much you</p>
+
+        <h2 id="memories-title">
+          Some things are<br />
+          <em>so you.</em>
+        </h2>
+
+        <p class="body-copy">
+          Three little pieces of evidence that you're your own kind of
+          wonderful. Tap each card — yes, even the embarrassing ones. Especially
+          those, actually. ♡
+        </p>
+
+        <div class="memory-grid">
+          <!-- PHOTO 1: THE PHOTOBOMBER -->
+          <button
+            class="memory-card card-one"
+            data-caption="You really saw a perfectly good photo and thought, 'This needs a little more me.' And honestly? You were right. Life's more fun with your goofy little interruptions in it. Never stop being this kind of menace. ♡"
+          >
+            <span class="photo-placeholder">
+              <span class="placeholder-art sunflower-art">✿</span>
+              <small>THE UNINVITED GUEST</small>
+            </span>
+
+            <span class="memory-label"> THE PROFESSIONAL PHOTO-BOMBER 📸 </span>
+
+            <span class="memory-reveal"> caught in 4K ↗ </span>
+          </button>
+
+          <!-- PHOTO 2: THE SUNSET -->
+          <button
+            class="memory-card card-two"
+            data-caption="There's something about you in this picture — that little spark, that effortless way you make an ordinary moment feel like something worth remembering. I hope life gives you a thousand more sunsets, beautiful surprises, and reasons to smile like this. Keep that spark. It's one of your best things. ✨"
+          >
+            <span class="photo-placeholder">
+              <span class="placeholder-art lavender-art">✧</span>
+              <small>GOLDEN HOUR MAGIC</small>
+            </span>
+
+            <span class="memory-label"> HER KIND OF GOLDEN HOUR ✨ </span>
+
+            <span class="memory-reveal">
+              a little main-character moment ↗
+            </span>
+          </button>
+
+          <!-- PHOTO 3: THE FOOD LOVER -->
+          <button
+            class="memory-card card-three"
+            data-caption="The food arrives, and suddenly it's every person for themselves. First to attack the plate, last person you want to stand between and her meal. And if you haven't eaten? God help us all. 😂 But honestly, never lose that unapologetic energy. Just remember to leave a little for the rest of us, okay?"
+          >
+            <span class="photo-placeholder">
+              <span class="placeholder-art cat-art">♡</span>
+              <small>HANDLE WITH SNACKS</small>
+            </span>
+
+            <span class="memory-label"> THE FOOD COMES FIRST 🍟 </span>
+
+            <span class="memory-reveal"> approach with caution ↗ </span>
+          </button>
+        </div>
+
+        <p class="micro-note">
+          Different moods, questionable behaviour, one very lovely human.
+          Wouldn't have it any other way. ♡
+        </p>
+
+        <button class="button primary" data-next="voice">
+          alright, enough snooping <span>→</span>
+        </button>
+      </section>
+
+      <section class="screen" id="voice" aria-labelledby="voice-title">
+        <div class="step-label">
+          <span>✿ 04 / A LITTLE SOMETHING FOR YOU</span>
+          <span>YOUR REQUEST, FINALLY ♡</span>
+        </div>
+
+        <div class="audio-sticker" aria-hidden="true">
+          <span>♫</span>
+          <i>you asked, remember?</i>
+        </div>
+
+        <p class="kicker">well, someone had to keep their promise</p>
+
+        <h2 id="voice-title">
+          You asked for a song.<br />
+          <em>So here's yours.</em>
+        </h2>
+
+        <p class="body-copy">
+          Remember when you asked me to sing <em>Dooron Dooron</em>? Well, I
+          didn't forget. So here's a little version, just for you. Just me
+          finally singing the song you asked for.
+        </p>
+
+        <div class="audio-card">
+          <div class="audio-icon">♫</div>
+
+          <div class="audio-info">
+            <strong>Dooron Dooron</strong>
+            <span>a little cover, just for you ♡</span>
+          </div>
+
+          <audio id="voice-player" controls preload="none">
+            <source src="assets/birthday-voice.mp3" type="audio/mpeg" />
+            Your browser doesn't support audio.
+          </audio>
+        </div>
+
+        <p class="audio-fallback" id="audio-fallback">
+          Consider this your very own birthday performance. Exclusive release,
+          one listener in mind. 💜
+        </p>
+
+        <p class="micro-note">
+          P.S. You are officially not allowed to rate this out of 10.
+        </p>
+
+        <button class="button primary" data-next="letter">
+          one last little thing <span>→</span>
+        </button>
+      </section>
+
+      <section
+        class="screen letter-screen"
+        id="letter"
+        aria-labelledby="letter-title"
+      >
+        <div class="step-label">
+          <span>✿ THE HEART OF IT</span>
+          <span>READ THIS, OKAY?</span>
+        </div>
+
+        <div class="letter-card">
+          <div class="letter-tape tape-one"></div>
+          <div class="letter-tape tape-two"></div>
+
+          <div class="letter-top">
+            <span>a little birthday letter</span>
+            <span>♡ ✨</span>
+          </div>
+
+          <p class="script-kicker">dear Selina,</p>
+
+          <h2 id="letter-title">
+            HAPPY BIRTHDAY
+            <em> you lovely human.</em>
+          </h2>
+
+          <div class="letter-copy">
+            <p>
+              First things first, happy birthday, Selina! 💜 Another year older,
+              but hopefully a little wiser. Although, knowing you, I'm not
+              making any promises on that second part. 😂
+            </p>
+
+            <p>
+              Jokes aside, I know things have been a little tough lately. I've
+              seen you trying to handle everything, and I just want you to know
+              that I appreciate how you've been getting through it. I know it
+              isn't always easy, even when you make it look like you're managing
+              just fine.
+            </p>
+
+            <p>
+              Just remember that you don't have to have everything figured out
+              all the time. It's okay to have off days, feel tired, or just not
+              be in the mood for anything. Take things at your own pace, and
+              don't be too hard on yourself. Things won't always feel this way,
+              and I genuinely hope the days ahead are kinder to you. Keep
+              smiling whenever you can, okay?
+            </p>
+
+            <p>
+              Also, I had actually planned a lunch date for us. The idea was
+              pretty simple: take you out, have some good food, talk about
+              whatever comes to mind, and hopefully make your day a little
+              better. I'd put the plans together, but it got cancelled at the
+              last moment. A bit of a bummer, not gonna lie. 😭
+            </p>
+
+            <p>
+              But don't feel bad about it. I just wanted you to know I'd been
+              looking forward to it. We'll do that lunch or brunch another day,
+              whenever you're feeling better and up for it. No rush at all. The
+              plan can wait; we have time. :)
+            </p>
+
+            <p>
+              And hey, if anything's bothering you, you can always talk to me.
+              Doesn't matter if it's something serious, something random, or
+              just one of those things you need to get off your chest. You don't
+              have to think twice about telling me or worry about being judged.
+              Just message me and say what's on your mind.
+            </p>
+
+            <p>
+              I'll listen, obviously. And if you need an honest opinion or a
+              reality check, haa ji, batayen, we'll talk about that too. 😂 I
+              won't blindly agree with everything you say, but I'll always hear
+              you out properly. Sometimes you need someone to listen, and
+              sometimes you need someone to tell you that you're overthinking
+              it. I'll try to figure out which one it is.
+            </p>
+
+            <p>
+              I don't know if you consider me your best friend, and there's
+              absolutely no pressure to put a label on anything. But from my
+              side, I do consider you one. I'm genuinely glad we became friends,
+              and I hope we keep making more memories, having random
+              conversations, annoying each other, and being our usual selves.
+            </p>
+
+            <p>
+              Also, I've genuinely not written this much for anyone in a while,
+              so you should probably appreciate the effort. 😂 I'm not always
+              the best at putting these things into words, but I wanted to make
+              sure you knew how much I value our friendship. So yes, consider
+              this a rare display of effort and emotional expression from my
+              side. Please acknowledge accordingly.
+            </p>
+
+            <p>
+              Anyway, I hope this year brings you more peace, good memories,
+              plenty of reasons to laugh, good food, and people who make life
+              feel a little easier. Keep being yourself, take care of yourself,
+              and remember that even when things get difficult, you don't have
+              to deal with everything alone.
+            </p>
+
+            <p class="final-line">
+              Happy birthday, Selina. Here's to better days, more laughs, and
+              plenty of lovely little moments ahead. ♡ 💜
+            </p>
+          </div>
+
+          <div class="letter-signoff">
+            <span>written with genuine affection (and unusual effort)</span>
+            <span>your bestfriend, Batman 🦇</span>
+          </div>
+        </div>
+
+        <button class="button primary" id="last-thing">
+          wait… there's a tiny bonus <span>↗</span>
+        </button>
+
+        <div class="secret-note hidden" id="secret-note">
+          <span class="secret-star">♡</span>
+
+          <p class="kicker">ONE LAST THING</p>
+
+          <h2>
+            Here's to<br />
+            <em>better days ahead.</em>
+          </h2>
+
+          <p>
+            Birthday rules: eat something good, accept a compliment without
+            arguing for once, get some rest, and make time for the things that
+            make you happy. And please don't cancel our next food plan. 😂💜
+          </p>
+
+          <div class="bonus-doodles" aria-hidden="true">✿　♡　☾　♡　✿</div>
+
+          <button class="button ghost" id="replay">
+            start the little adventure again ↺
+          </button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>✿ a small corner of the internet, just for you</span
+        ><span>lavender skies & sunflower days ♡</span>
+      </footer>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
